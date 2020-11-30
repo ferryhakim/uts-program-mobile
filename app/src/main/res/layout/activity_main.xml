@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bac"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="KATALOG HP"
+
+        android:textSize="29sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="(Tekan gambar untuk membuka galeri)"
+
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/btn_buka_type_Realme"
+        android:layout_width="212dp"
+        android:layout_height="130dp"
+        android:layout_margin="8dp"
+
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/realme_3_pro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <ImageButton
+        android:id="@+id/btn_buka_type_Redmi"
+        android:layout_width="208dp"
+        android:layout_height="130dp"
+        android:layout_margin="8dp"
+
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/redmi_note_5pro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageButton
+        android:id="@+id/btn_buka_type_Samsung"
+        android:layout_width="210dp"
+        android:layout_height="130dp"
+        android:layout_margin="8dp"
+
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/samsung_a10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="474dp" />
+
+
+</LinearLayout>
